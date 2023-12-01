@@ -7,7 +7,7 @@
 ## ABOUT :books:
 
 Since I have been slowly learning more abou the C programming language and I was wondering what to implement, 
-I thought I'd re-implement, [this tool] I wrote in C++, in C. This repository contains the source code for this re-implementation. Enjoy! :heart:
+I thought I'd re-implement, [this tool](https://github.com/angeldollface/hack) I wrote in C++, in C. This repository contains the source code for this re-implementation. Enjoy! :heart:
 
 ## INSTALLATION :hammer:
 
