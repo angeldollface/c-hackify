@@ -1,6 +1,24 @@
+/*
+C-HACKIFY by Alexander Abraham 
+a.k.a. "Angel Dollface".
+Licensed under the MIT license.
+*/
+
+// Import from the
+// standard library
+// to use the "printf"
+// macro.
 #include <stdio.h>
+
+// Import from the
+// standard library
+// to use the "strlen"
+// function.
 #include <string.h>
-#include <stdlib.h>
+
+// This function replaces all the characters in
+// a string with number characters where possible
+// and returns a pointer to the resulting string.
 const char * replace_chars(char user_string[]){
     char * result = user_string;
     for (int i = 0; i < strlen(user_string); i++){
@@ -69,6 +87,7 @@ const char * replace_chars(char user_string[]){
     return result;
 }
 
+// A small CLI to make I/O easy.
 void cli(int argc, char* argv[]){
      if (argc == 2){
         printf("%s\n", replace_chars(argv[1]));
@@ -78,7 +97,8 @@ void cli(int argc, char* argv[]){
     }
 }
 
-
+// The main point of entry for the
+// C compiler.
 int main(int argc, char* argv[]){
     cli(argc, argv);
 }
