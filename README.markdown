@@ -2,7 +2,7 @@
 
 ![C-HACKIFY CI](https://github.com/angeldollface/c-hackify/actions/workflows/clang.yml/badge.svg)
 
-***My implementation of "Hackify" in C. :woman_technologist: :ribbon: :gear:***
+***My implementation of "Hack" in C. :woman_technologist: :ribbon: :gear:***
 
 ## ABOUT :books:
 
