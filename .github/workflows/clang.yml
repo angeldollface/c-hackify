@@ -1,0 +1,12 @@
+on: [push]
+name: C-HACKIFY CI
+jobs:
+  build_and_test:
+    name: C-HACKIFY CI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: "Run tests."
+        run: make build && make perm
+      - name: "Hackify a string."
+        run: ./hackify "Hello World!"
