@@ -6,7 +6,7 @@
 
 ## ABOUT :books:
 
-Since I have been slowly learning more abou the C programming language and I was wondering what to implement, 
+Since I have been slowly learning more about the C programming language and I was wondering what to implement, 
 I thought I'd re-implement, [this tool](https://github.com/angeldollface/hack) I wrote in C++, in C. This repository contains the source code for this re-implementation. Enjoy! :heart:
 
 ## INSTALLATION :hammer:
@@ -15,7 +15,7 @@ To install *C-Hackify*, make sure that you have the following tools installed an
 
 - A C compiler
 - [Git](https://git-scm.org)
-- CMake
+- Make
 
 Assuming you have these tools available, execute the following commands from a command prompt:
 
